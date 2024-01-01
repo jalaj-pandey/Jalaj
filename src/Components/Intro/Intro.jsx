@@ -5,9 +5,8 @@ import LinkedIn from '../../img/linkedin.png';
 import Instagram from '../../img/instagram.png';
 import Vector1 from '../../img/Vector1.png';
 import Vector2 from '../../img/Vector2.png';
-import boy from '../../img/Jasp.png';
+import jalajP from '../../img/jalajP.png';
 import thumbup from '../../img/thumbup.png';
-import wave from '../../img/wave.png'
 import Crown from '../../img/crown.png';
 import glassesimoji from '../../img/glassesimoji.png'
 import FloatingDiv from '../FloatingDiv/FloatingDiv';
@@ -40,13 +39,13 @@ Let's embark on an exciting journey together! If you're in search of a passionat
         <div className="i-right">
             <img src={Vector1} alt="" />
             <img src={Vector2} alt="" />
-            <img src={boy} alt="" />
+            <img src={jalajP} alt="" />
             <motion.img
             initial={{ left: "-36%" }}
             whileInView={{ left: "-24%" }}
             transition={transition}
             src={glassesimoji} alt="" />
-            <img style={{scale:'9%',top:'-8.1%', left:'-125.1%',rotate:'-10deg'}} src={wave} alt="" />
+            <img style={{scale:'9%',top:'-8.1%', left:'-125.1%',rotate:'-10deg'}}  alt="" />
 
             <motion.div
           initial={{ top: "-4%", left: "74%" }}
