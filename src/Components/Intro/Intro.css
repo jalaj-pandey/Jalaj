@@ -1,0 +1,180 @@
+.intro{
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+}
+
+.introb{
+        margin-left: 5%;
+      }
+
+.i-left{
+    display: flex;
+    position: relative;
+    flex:1;
+    flex-direction: column;
+}
+
+.i-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.i-name>:nth-child(1){
+    color: var(--black);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.i-name>:nth-child(2){
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.i-name>:nth-child(3){
+    color: var(--gray);
+    margin: 20px;
+    /* font-weight:200; */
+    font-size: 16px;
+}
+
+.i-button{
+    width: 8rem;
+    height: 2rem;
+
+}
+
+.i-icons{
+    margin-top: 1rem;
+    display: flex;
+    gap: 0rem;
+    
+}
+
+.i-icons>*{
+    transform: scale(0.5);
+    
+}
+
+.i-icons>*:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.i-right{
+    flex: 1;
+    position: relative;
+}
+
+.i-right>*{
+    position: absolute;
+    z-index: 1;
+}
+.i-right>:nth-child(1){
+    position: relative;
+    transform: scale(0.69);
+    left: -15%;
+    top: -9%;   
+}
+.i-right>:nth-child(2){
+    top: -4.6rem;
+    transform: scale(0.63);
+    left: -5rem;
+}
+.i-right>:nth-child(3){
+    transform: scale(0.7);
+    left: 9.2%;
+    top: -28%;
+}
+
+.i-right>:nth-child(4){
+    position: relative;
+    transform: scale(0.5);
+    top: -85%;
+    left: -24%;
+    border-radius: 50%;
+    padding: 0;
+}
+
+.blur{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #ededed;    z-index: -9;
+    top: -18%;
+    left: 56%;
+    filter: blur(72px);
+}
+
+.img{
+    background: rgb(2, 2, 2);
+    
+}
+
+@media screen and (max-width: 600px) {
+    .intro{
+        display: flex;
+        height: 75vh;
+        margin-top: 4rem;
+    }
+    .i-left{
+        display: flex;
+        position: relative;
+        flex:1;
+        flex-direction: column;
+    }
+
+    .introb{
+        width: 25rem;
+        margin-left: 25%;
+        margin-right: 20px;
+      }
+
+  .i-icons{
+    margin: 0.5rem;
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.i-icons>*{
+    transform: scale(0.4);
+}
+
+  
+  .i-right {
+    display:none;
+  }
+  .i-right>*{
+    display: none;
+}
+  .i-right .blur {
+    display: none;
+  }
+
+.i-right>:nth-child(1){
+    display: none;
+
+}
+.i-right>:nth-child(2){
+    display: none;
+
+}
+.i-right>:nth-child(3){
+    display: none;
+
+}
+
+.i-right>:nth-child(4){
+    display: none;
+}
+
+  .floating-div:nth-of-type(1){
+    /* display: none; */
+    top: -7rem !important;;
+  }
+}

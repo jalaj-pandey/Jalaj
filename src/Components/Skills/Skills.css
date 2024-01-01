@@ -1,0 +1,756 @@
+.awesome {
+    display: flex;
+    padding-top: 80px;
+    flex-direction: column;
+    position: relative;
+    /* gap: 20px; */
+  }
+  
+  .awesome > :nth-child(1) {
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .awesome > :nth-child(2) {
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .awesome > :nth-child(3) {
+    color: var(--gray);
+    font-size: 14px;
+    margin-top: 1rem;
+  }
+  
+
+  .skills{
+    padding: 10px 2rem 0 ;
+    display: flex;
+    height: 70vh;
+    margin-top: 4rem;
+  }
+
+  /*start of language section*/
+  .sl-mainCircle{
+    left: 9rem;
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+    box-shadow: var(--smboxShadow);
+    top: 2rem;
+    background: white;
+  }
+  .sl-mainCircle>*{
+    position: absolute;
+  }
+  .sl-mainCircle>:nth-child(1){
+    top: -1rem;
+    left:4rem;
+  }
+  .sl-mainCircle .sl-secCircleCenter{
+    top: 3.5rem;
+    left:3rem;
+  }
+  .sl-mainCircle>:nth-child(3){
+    top: 8.5rem;
+    left:4rem;
+  }
+  .sl-mainCircle>:nth-child(4){
+    top: 4rem;
+    left:-1rem;
+  }
+  .sl-mainCircle>:nth-child(5){
+    top: 4rem;
+    left:8.1rem;
+  }
+  
+  .sl-secCircle{
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    border-radius: 100%;
+    border: 3px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    box-shadow: var(--smboxShadow);
+    background: white;  
+}
+
+.sl-secCircle>img{
+    transform: scale(0.3);
+}
+
+.sl-backCircle{
+    position: absolute;
+    height: 7rem;
+    width: 7rem;
+    border-radius: 100%;
+    z-index: -1;
+}
+
+.sblueCircle{
+  position: relative;
+    background: #194988;
+    left: 12rem;
+    top: -8rem;
+}
+.syellowCircle{
+   position: relative;
+    background: #F5C32C;
+    left: 12rem;
+    top:-12rem;
+}
+
+/*end of language section*/
+
+/*start of FRONTEND section*/
+.sf-mainCircle{
+    left: 15rem;
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+    box-shadow: var(--smboxShadow);
+    top: 2rem;
+    background: white;
+  }
+  .sf-mainCircle>*{
+    position: absolute;
+  }
+  .sf-mainCircle>:nth-child(1){
+    top: -1rem;
+    left:4rem;
+  }
+  .sf-mainCircle .sf-secCircleCenter{
+    top: 3.5rem;
+    left:3rem;
+  }
+  .sf-mainCircle>:nth-child(3){
+    top: 8.5rem;
+    left:4rem;
+  }
+  .sf-mainCircle>:nth-child(4){
+    top: 6rem;
+    left:-0.5rem;
+  }
+  .sf-mainCircle>:nth-child(5){
+    top: 4rem;
+    left:8.3rem;
+  }
+  .sf-mainCircle>:nth-child(6){
+    top: 1.3rem;
+    left:-0.2rem;
+  }
+  
+  .sf-secCircle{
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    border-radius: 100%;
+    border: 3px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    box-shadow: var(--smboxShadow);
+    background: white;  
+}
+
+.sf-secCircle>img{
+    transform: scale(0.3);
+}
+
+.sf-backCircle{
+    position: absolute;
+    height: 7rem;
+    width: 7rem;
+    border-radius: 100%;
+    z-index: -1;
+}
+
+.fblueCircle{
+  position: relative;
+    background: #194988;
+    left: 18rem;
+    top: -8rem;
+}
+.fyellowCircle{
+  position: relative;
+    background: #F5C32C;
+    left: 18rem;
+    top: -12rem;
+}
+
+/*end of FRONTEND section*/
+
+/*start of BACKEND section*/
+.sb-mainCircle{
+    left: 20rem;
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+    box-shadow: var(--smboxShadow);
+    top: 9rem;
+    background: white;
+  }
+  .sb-mainCircle>*{
+    position: absolute;
+  }
+  .sb-mainCircle>:nth-child(1){
+    top: -1rem;
+    left:4rem;
+  }
+  .sb-mainCircle .sb-secCircleCenter{
+    top: 3.5rem;
+    left:3rem;
+  }
+  .sb-mainCircle>:nth-child(3){
+    top: 8.5rem;
+    left:4rem;
+  }
+  .sb-mainCircle>:nth-child(4){
+    top: 4rem;
+    left:-0.8rem;
+  }
+  .sb-mainCircle>:nth-child(5){
+    top: 4rem;
+    left:8.3rem;
+  }
+
+  .sb-secCircle{
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    border-radius: 100%;
+    border: 3px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    box-shadow: var(--smboxShadow);
+    background: white;  
+}
+
+.sb-secCircle>img{
+    transform: scale(0.3);
+}
+
+.sb-backCircle{
+    position: absolute;
+    height: 7rem;
+    width: 7rem;
+    border-radius: 100%;
+    z-index: -1;
+}
+
+.bblueCircle{
+    position: relative;
+    background: #194988;
+    left: 23rem;
+    top: -1rem;
+}
+.byellowCircle{
+  position: relative;
+    background: #F5C32C;
+    left: 23rem;
+    top:-5rem;
+}
+
+/*end of BACKEND section*/
+
+
+/*start of TOOLS section*/
+.st-mainCircle{
+    right: 27rem;
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+    box-shadow: var(--smboxShadow);
+    top: 15rem;
+    background: white;
+  }
+  .st-mainCircle>*{
+    position: absolute;
+  }
+  .st-mainCircle>:nth-child(1){
+    top: -1rem;
+    left:4rem;
+  }
+  .st-mainCircle .st-secCircleCenter{
+    top: 3.5rem;
+    left:4rem;
+    
+  }
+  .st-mainCircle>:nth-child(3){
+    top: 8.5rem;
+    left:4rem;
+  }
+  .st-mainCircle>:nth-child(4){
+    top: 7.5rem;
+    left:0.5rem;
+  }
+  .st-mainCircle>:nth-child(5){
+    top: 4rem;
+    left:8.5rem;
+  }
+  .st-mainCircle>:nth-child(6){
+    top: 0.3rem;
+    left:0.3rem;
+  }
+  .st-mainCircle>:nth-child(7){
+    top: 3.9rem;
+    left:-1.2rem;
+  }
+
+  .st-secCircle{
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    border-radius: 100%;
+    border: 3px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    box-shadow: var(--smboxShadow);
+    background: white;  
+}
+
+.st-secCircle>img{
+    transform: scale(0.3);
+}
+
+.st-backCircle{
+    position: absolute;
+    height: 7rem;
+    width: 7rem;
+    border-radius: 100%;
+    z-index: -1;
+}
+
+.tblueCircle{
+  position: relative;
+    background: #194988;
+    left: -23.9rem;
+    top: 5rem;
+}
+.tyellowCircle{
+  position: relative;
+    background: #F5C32C;
+    left: -23.9rem;
+    top:1rem;
+}
+
+/*end of TOOLS section*/
+
+/*start of DATABASE section*/
+.sd-mainCircle{
+    right: 19rem;
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+    box-shadow: var(--smboxShadow);
+    top: 15rem;
+    background: white;
+  }
+  .sd-mainCircle>*{
+    position: absolute;
+  }
+  .sd-mainCircle>:nth-child(1){
+    top: -1rem;
+    left:4rem;
+  }
+  .sd-mainCircle .sd-secCircleCenter{
+    top: 3.5rem;
+    left:3.5rem;
+    
+  }
+  .sd-mainCircle>:nth-child(3){
+    top: 8.5rem;
+    left:4rem;
+  }
+  .sd-mainCircle>:nth-child(4){
+    top: 4rem;
+    left:-0.8rem;
+  }
+  .sd-mainCircle>:nth-child(5){
+    top: 4rem;
+    left:8.5rem;
+  }
+
+  .sd-secCircle{
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    border-radius: 100%;
+    border: 3px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    box-shadow: var(--smboxShadow);
+    background: white;  
+}
+
+.sd-secCircle>img{
+    transform: scale(0.3);
+}
+
+.sd-backCircle{
+    position: absolute;
+    height: 7rem;
+    width: 7rem;
+    border-radius: 100%;
+    z-index: -1;
+}
+
+.dblueCircle{
+  position: relative;
+    background: #194988;
+    right: 16rem;
+    top: 5rem;
+}
+.dyellowCircle{
+  position: relative;
+    background: #F5C32C;
+    right: 16rem;
+    top: 1rem;
+}
+
+/*end of DATABASE section*/
+
+@media screen and (max-width: 600px) {
+
+  .awesome {
+    display: flex;
+    margin-top: 140px;
+    flex-direction: column;
+    position: relative;
+    /* gap: 20px; */
+  }
+
+  .awesome > :nth-child(1) {
+    font-size: 1.5rem;
+  }
+  .awesome > :nth-child(2) {
+    font-size: 1.5rem;
+  }
+  .awesome > :nth-child(3) {
+    font-size: 14px;
+    margin-top: 0rem;
+
+  }
+
+  .s-button {
+    margin-top: 0px;
+    padding-top: 10px;
+    width: 8rem;
+    height: 2rem;
+  }
+
+
+  .skills {
+    padding: 0 2rem;
+    display: flex;
+    height: 190vh;
+    margin-top: 4rem;
+  }
+  
+
+  .sl-mainCircle{
+    flex-direction: row;
+    left: -11rem;
+    top: 33rem;
+    width: 7rem;
+    height: 7rem;
+  }
+  .sl-mainCircle>:nth-child(1){
+    top: -0.8rem;
+    left:2.7rem;
+  }
+  .sl-mainCircle .sl-secCircleCenter{
+    top: 2.3rem;
+    left:1.5rem;
+  }
+  .sl-mainCircle>:nth-child(3){
+    top: 6.3rem;
+    left:2.7rem;
+  }
+  .sl-mainCircle>:nth-child(4){
+    top: 2.8rem;
+    left:-0.5rem;
+  }
+  .sl-mainCircle>:nth-child(5){
+    top: 2.8rem;
+    left:6.1rem;
+  }
+  
+  .sl-secCircle{
+    width: 1rem;
+    height: 1rem; 
+}
+
+.sl-secCircle>img{
+    transform: scale(0.2);
+}
+
+.sl-backCircle{
+    position: absolute;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 100%;
+    z-index: -1;
+}
+  .sblueCircle{
+    position: relative;
+      left: -9rem;
+      top: 25.8rem;
+  }
+  .syellowCircle{
+     position: relative;
+      left: -9rem;
+      top:23.1rem;
+  }
+
+  /*Frontend*/
+  .sf-mainCircle{
+    flex-direction: row;
+    left: -9rem;
+    top: 33rem;
+    width: 7rem;
+    height: 7rem;
+  }
+  .sf-mainCircle>:nth-child(1){
+    top: -0.8rem;
+    left:2.7rem;
+  }
+  .sf-mainCircle .sf-secCircleCenter{
+    top: 2.3rem;
+    left:1.5rem;
+  }
+  .sf-mainCircle>:nth-child(3){
+    top: 6.3rem;
+    left:2.7rem;
+  }
+  .sf-mainCircle>:nth-child(4){
+    top: 4.8rem;
+    left:-0.1rem;
+  }
+  .sf-mainCircle>:nth-child(5){
+    top: 2.8rem;
+    left:6.1rem;
+  }
+  
+  .sf-secCircle{
+    width: 1rem;
+    height: 1rem; 
+}
+
+.sf-secCircle>img{
+    transform: scale(0.2);
+}
+
+.sf-backCircle{
+    position: absolute;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 100%;
+    z-index: -1;
+}
+  .fblueCircle{
+    position: relative;
+      left: -6.9rem;
+      top: 25.8rem;
+  }
+  .fyellowCircle{
+     position: relative;
+      left: -6.9rem;
+      top:23.1rem;
+  }
+
+  /*BACKEND*/
+
+   .sb-mainCircle{
+    flex-direction: row;
+    left: -25rem;
+    top: 43rem;
+    width: 7rem;
+    height: 7rem;
+  }
+  .sb-mainCircle>:nth-child(1){
+    top: -0.8rem;
+    left:2.7rem;
+  }
+  .sb-mainCircle .sb-secCircleCenter{
+    top: 2.3rem;
+    left:1.5rem;
+  }
+  .sb-mainCircle>:nth-child(3){
+    top: 6.3rem;
+    left:2.7rem;
+  }
+  .sb-mainCircle>:nth-child(4){
+    top: 2.8rem;
+    left:-0.5rem;
+  }
+  .sb-mainCircle>:nth-child(5){
+    top: 2.8rem;
+    left:6.1rem;
+  }
+  
+  .sb-secCircle{
+    width: 1rem;
+    height: 1rem; 
+}
+
+.sb-secCircle>img{
+    transform: scale(0.2);
+}
+
+.sb-backCircle{
+    position: absolute;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 100%;
+    z-index: -1;
+}
+  .bblueCircle{
+    position: relative;
+      left: -23rem;
+      top: 35.8rem;
+  }
+  .byellowCircle{
+     position: relative;
+      left: -23rem;
+      top:33.1rem;
+  }
+
+
+  /*TOOLS*/
+
+  .st-mainCircle{
+    flex-direction: row;
+    left: -23rem;
+    top: 43rem;
+    width: 7rem;
+    height: 7rem;
+  }
+  .st-mainCircle>:nth-child(1){
+    top: -0.8rem;
+    left:2.7rem;
+  }
+  .st-mainCircle .st-secCircleCenter{
+    top: 2.3rem;
+    left:2.5rem;
+  }
+  .st-mainCircle>:nth-child(3){
+    top: 6.3rem;
+    left:2.7rem;
+  }
+  .st-mainCircle>:nth-child(4){
+    top: 5.6rem;
+    left:0.5rem;
+  }
+  .st-mainCircle>:nth-child(5){
+    top: 2.8rem;
+    left:6.1rem;
+  }
+  .st-mainCircle>:nth-child(6){
+    top: 0.8rem;
+    left:0.3rem;
+  }
+  .st-mainCircle>:nth-child(7){
+    top: 3.1rem;
+    left:-0.5rem;
+  }
+  
+  .st-secCircle{
+    width: 1rem;
+    height: 1rem; 
+}
+
+.st-secCircle>img{
+    transform: scale(0.2);
+}
+
+.st-backCircle{
+    position: absolute;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 100%;
+    z-index: -1;
+}
+  .tblueCircle{
+    position: relative;
+      left: -21rem;
+      top: 35.8rem;
+  }
+  .tyellowCircle{
+     position: relative;
+     left: -21rem;
+     top:33.1rem;
+  }
+
+  /*DATABASE*/
+  .sd-mainCircle{
+    flex-direction: row;
+    left: -35rem;
+    top: 53rem;
+    width: 7rem;
+    height: 7rem;
+  }
+  .sd-mainCircle>:nth-child(1){
+    top: -0.8rem;
+    left:2.7rem;
+  }
+  .sd-mainCircle .sd-secCircleCenter{
+    top: 2.3rem;
+    left:2rem;
+  }
+  .sd-mainCircle>:nth-child(3){
+    top: 6.3rem;
+    left:2.7rem;
+  }
+  .sd-mainCircle>:nth-child(4){
+    top: 2.8rem;
+    left:-0.5rem;
+  }
+  .sd-mainCircle>:nth-child(5){
+    top: 2.8rem;
+    left:6.1rem;
+  }
+  
+  .sd-secCircle{
+    width: 1rem;
+    height: 1rem; 
+}
+
+.sd-secCircle>img{
+    transform: scale(0.2);
+}
+
+.sd-backCircle{
+    position: absolute;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 100%;
+    z-index: -1;
+}
+  .dblueCircle{
+    position: relative;
+      left: -33rem;
+      top: 45.8rem;
+  }
+  .dyellowCircle{
+     position: relative;
+     left: -33rem;
+     top: 43.1rem;
+  }
+
+}

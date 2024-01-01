@@ -1,0 +1,28 @@
+.footer {
+    border-top: 2px solid var(--orange);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .f-content {
+    position: absolute;
+    margin-top: 2rem;
+    color: rgb(0, 0, 0);
+  }
+  .f-icons {
+    display: flex;
+    gap: 2rem;
+  }
+
+ 
+  
+  @media screen and (max-width: 480px){
+    .f-content{
+      transform: scale(.5);
+    }
+    h3{
+      font-size: 35px;
+      margin-top: 0px;
+      padding-bottom: 20px;
+    }
+  }
