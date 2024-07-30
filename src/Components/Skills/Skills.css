@@ -429,7 +429,7 @@
 
   .awesome {
     display: flex;
-    margin-top: 140px;
+    margin-top: 0px;
     flex-direction: column;
     position: relative;
     /* gap: 20px; */
@@ -458,8 +458,11 @@
   .skills {
     padding: 0 2rem;
     display: flex;
-    height: 190vh;
+    height: 135vh;
     margin-top: 4rem;
+  }
+  .skills ul  li {
+    margin-bottom: 20px;
   }
   
 

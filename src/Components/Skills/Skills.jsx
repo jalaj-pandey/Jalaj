@@ -32,6 +32,7 @@ const Skills = () => {
         <div className="awesome">
         <span >My Awesome</span>
         <span>Skills</span>
+        <br />
         <span>
           <ul>
             <li>🐍 Programming Languages</li>
@@ -40,6 +41,7 @@ const Skills = () => {
             <li>🔧Tools</li>
             <li>🗄️Database</li>
           </ul>
+          <br />
         </span>
         <button style={{width:"10rem"}} onClick = {handleDownload} className="btn btn-color-2 project-btn">Download CV</button>
         </div>

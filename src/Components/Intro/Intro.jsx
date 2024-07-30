@@ -52,7 +52,7 @@ Let's embark on an exciting journey together! If you're in search of a passionat
           whileInView={{ left: "55%" }}
           transition={transition}
           className="floating-div">
-              <FloatingDiv image ={Crown} txt1="Web" txt2="Developer"/>
+              <FloatingDiv image ={Crown} txt1="Web" txt2="Dev"/>
             </motion.div>
             <motion.div
           initial={{ left: "18rem", top: "18rem" }}
